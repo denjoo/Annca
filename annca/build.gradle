@@ -76,15 +76,15 @@ install {
         pom.project {
             name 'io.github.memfis19'
             description 'Android solution to simplify work with different camera apis.'
-            url 'https://github.com/memfis19/Annca'
+            url 'https://github.com/denjoo/Annca'
             inceptionYear '2016'
 
             packaging 'aar'
             version PUBLISH_VERSION
 
             scm {
-                connection 'https://github.com/memfis19/Annca.git'
-                url 'https://github.com/memfis19/Annca'
+                connection 'https://github.com/denjoo/Annca.git'
+                url 'https://github.com/denjoo/Annca'
 
             }
             developers {
@@ -109,9 +109,9 @@ bintray {
         desc = 'Android solution to simplify work with different camera apis.'
         licenses = ['MIT']
         labels = ['android', 'camera', 'photo', 'video']
-        websiteUrl = 'https://github.com/memfis19/Annca'
-        issueTrackerUrl = 'https://github.com/memfis19/Annca/issues'
-        vcsUrl = 'https://github.com/memfis19/Annca.git'
+        websiteUrl = 'https://github.com/denjoo/Annca'
+        issueTrackerUrl = 'https://github.com/denjoo/Annca/issues'
+        vcsUrl = 'https://github.com/denjoo/Annca.git'
         version {
             name = PUBLISH_VERSION
             vcsTag = PUBLISH_VERSION
